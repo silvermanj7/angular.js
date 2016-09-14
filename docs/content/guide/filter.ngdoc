@@ -166,7 +166,7 @@ converted into stateless filters just by exposing the hidden state as a model an
 argument for the filter.
 
 If you however do need to write a stateful filter, you have to mark the filter as `$stateful`, which
-means that it will be executed one or more times during the each `$digest` cycle.
+means that it will be executed one or more times during each `$digest` cycle.
 
 <example module="myStatefulFilterApp" name="filter-stateful">
   <file name="index.html">
